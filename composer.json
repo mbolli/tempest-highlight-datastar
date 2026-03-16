@@ -1,0 +1,36 @@
+{
+    "name": "mbolli/tempest-highlight-datastar",
+    "description": "Datastar language support for tempest/highlight — highlights data-* attributes, $signals, @actions, and expressions.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "tempest/highlight": "^2.17"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mbolli\\TempestHighlightDatastar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Bolli",
+            "email": "michael@zweiundeins.gmbh"
+        }
+    ],
+    "keywords": [
+        "datastar",
+        "syntax-highlighting",
+        "tempest-highlight"
+    ],
+    "scripts": {
+        "before-commit": [
+            "vendor/bin/php-cs-fixer fix",
+            "vendor/bin/phpstan analyse"
+        ]
+    }
+}
