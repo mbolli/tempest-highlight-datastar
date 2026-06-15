@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mbolli/tempest-highlight-datastar.svg?style=flat-square)](https://packagist.org/packages/mbolli/tempest-highlight-datastar)
 [![PHP Version](https://img.shields.io/packagist/php-v/mbolli/tempest-highlight-datastar.svg?style=flat-square)](https://packagist.org/packages/mbolli/tempest-highlight-datastar)
+[![Total Downloads](https://img.shields.io/packagist/dt/mbolli/tempest-highlight-datastar.svg?style=flat-square)](https://packagist.org/packages/mbolli/tempest-highlight-datastar)
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-level%2010-brightgreen.svg?style=flat-square)](https://phpstan.org/)
 [![License](https://img.shields.io/packagist/l/mbolli/tempest-highlight-datastar.svg?style=flat-square)](LICENSE)
 
